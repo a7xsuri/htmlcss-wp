@@ -39,6 +39,10 @@ a:hover {
     border-radius: 10px;
 }
 
+.hero-image:hover {
+    background-image:  linear-gradient(rgba(24, 24, 24, 0.20), rgba(24, 24, 24, 0.20)), url("./img/banner-2.jpg");
+}
+
 .hero-text {
     color: white;
     position:absolute;
@@ -87,6 +91,12 @@ a:hover {
    background-size: cover;
    border-radius: 5px;
   }
+
+  .left-img:hover {
+    background-image:  linear-gradient(rgba(24, 24, 24, 0.20), rgba(24, 24, 24, 0.20)), url("./img/img-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
   
   .mid-img {
     height: 200px;
@@ -106,6 +116,11 @@ a:hover {
     border-radius: 5px;
   }
   
+  .right-img:hover {
+    background-image:  linear-gradient(rgba(24, 24, 24, 0.20), rgba(24, 24, 24, 0.20)), url("./img/img-6.jpg");
+    background-position: center;
+    background-size: cover;
+  }
   p + p {
     color: grey;
   }
