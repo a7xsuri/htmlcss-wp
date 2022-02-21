@@ -25,11 +25,28 @@ a, li{
     list-style-type: none;
     padding-right: 13px;
     color: gray;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 a:hover {
     text-decoration-line: underline;
 }
 
+.hero-image {
+    width: 90%;
+    height: 30em;
+    background-image:  linear-gradient(rgba(24, 24, 24, 0.20), rgba(24, 24, 24, 0.20)), url(./img/banner.jpg);
+    margin:0 auto;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+}
 
-
+.hero-text {
+    color: white;
+    position:absolute;
+    bottom: 15%;
+    left: 5%;
+    width: 50%;
+  }
