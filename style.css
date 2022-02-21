@@ -2,4 +2,34 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
 }
+
+header {
+    height: 5em;
+    width: 90%;
+    margin:0 auto;
+}
+
+#logo {
+    height:80%;
+    border-right: 1px solid #c4c4c4c0;
+    padding-right: 30px;
+}
+nav {
+    padding: 40px 0;
+}
+a, li{
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 13px;
+    color: gray;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+
+
